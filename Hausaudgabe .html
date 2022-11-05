@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <p> he is my function lesson</p>
+    <button onclick="clicker()"> click me to see function</button><br>
+    <input type ="text" placeholder="=Enter Your Name" id="name" value="">   
+    <button onclick="sayHello()">Nächte frage</button><br>
+    
+    <input type="text" placeholder="Wie gehts dir " id="wgd" value="" >
+    <button onclick="pi()">Nächte frage</button><br>
+    <input type="text" placeholder="Wie alt bist du ? " id="wgd" value="" >
+    <button onclick="pi()">Nächte frage</button><br>
+
+   
+    <p id="result"></p>
+    <p id="Hello"></p>
+    <p id="name"></p>  
+    <p id="wgd"></p> 
+    <p id="!"></p>
+    
+    
+</body>
+    <script>
+        function clicker()
+        {
+            document.getElementById('result').innerHTML = "Clicken function is working";
+
+        }
+        function sayHello()
+        {
+            if(document.getElementById('name').value =="Yousef")
+            {
+                document.getElementById('Hello').innerHTML = "Hello teacher wie gehts dir ?"
+            }
+            else
+            {
+                document.getElementById('Hello').innerHTML = "Wie gehts dir ? "  
+            }
+        }        
+        function pi()
+        {
+             document.getElementById('!').innerHTML = "Wie alt bist du ?";
+        }
+        </script>
+        </html>
+            
+
